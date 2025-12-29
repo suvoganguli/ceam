@@ -7,3 +7,8 @@ __pycache__/
 # OS
 .DS_Store
 
+# Do not commit extracted rasters (too large)
+data/**/*.tif
+data/**/*.tiff
+data/**/*.geotiff
+
