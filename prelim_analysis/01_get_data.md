@@ -26,7 +26,7 @@ https://data.ngdc.noaa.gov/instruments/remote-sensing/passive/spectrometers-radi
 
 Usage:
   - download_month 201806
-  - download_month 201801
+  - download_month 201904
 
 Notes:
 - Uses curl + grep on directory listing to find the correct filename.
