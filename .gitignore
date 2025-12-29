@@ -7,28 +7,3 @@ __pycache__/
 # OS
 .DS_Store
 
-# Data (kept outside repo; also ignore if accidentally copied in)
-data/
-*.tif
-*.tiff
-*.geotiff
-*.img
-*.nc
-*.h5
-*.hdf
-*.hdf5
-*.parquet
-*.feather
-*.csv
-*.tsv
-*.gpkg
-*.geojson
-*.shp
-*.shx
-*.dbf
-*.prj
-*.cpg
-*.zip
-*.tar
-*.tgz
-*.gz
