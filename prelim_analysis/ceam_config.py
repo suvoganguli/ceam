@@ -50,6 +50,10 @@ PATHS = {
     "worldpop_ind_raw": DATA / "worldpop/raw/2019/ind_ppp_2019_1km_Aggregated.tif",
     "worldpop_bgd_raw": DATA / "worldpop/raw/2019/bgd_ppp_2019_1km_Aggregated.tif",
 
+    # WorldPop processed files
+    "fig_worldpop_clip": OUTPUTS / "figures/worldpop_2019_ppp_clip.png",
+    "fig_worldpop_overlay": OUTPUTS / "figures/worldpop_2019_ppp_overlay.png",
+
     # Processed outputs
     "worldpop_3857": OUTPUTS / "worldpop/worldpop_2019_ppp_3857.tif",
 
@@ -58,4 +62,6 @@ PATHS = {
 
     # OSM outputs
     "outputs_osm": OUTPUTS / "osm",
+
+
 }

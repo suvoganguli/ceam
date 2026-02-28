@@ -1,0 +1,13 @@
+cd /Users/suvo/Documents/AIforHumanityTech/Projects/ceam.nosync
+
+# 1) prove the venv python
+.venv/bin/python -c "import sys; print(sys.executable)"
+
+# 2) prove packages exist in the venv
+.venv/bin/python -c "import ipykernel, jupyterlab; print('ipykernel+jupyterlab OK')"
+
+# 3) register kernelspec using the venv python
+.venv/bin/python -m ipykernel install --user --name ceam-uv --display-name "Python (ceam-uv)"
+
+# 4) confirm kernelspec exists
+jupyter kernelspec list
