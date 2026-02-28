@@ -12,3 +12,4 @@ data/**/*.tif
 data/**/*.tiff
 data/**/*.geotiff
 
+outputs/
