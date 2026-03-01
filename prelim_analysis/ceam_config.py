@@ -63,5 +63,8 @@ PATHS = {
     # OSM outputs
     "outputs_osm": OUTPUTS / "osm",
 
+    # Admin dir
+    "admin_dir": OUTPUTS / "admin",
+
 
 }
