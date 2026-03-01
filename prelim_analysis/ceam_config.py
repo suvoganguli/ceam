@@ -66,5 +66,18 @@ PATHS = {
     # Admin dir
     "admin_dir": OUTPUTS / "admin",
 
+    # NTL Data
+    "ntl_201806_rad": DATA / "ntl" / "raw" / "201806" /
+    "SVDNB_npp_20180601-20180630_75N060E_vcmcfg_v10_c201904251200.avg_rade9h.tif",
+
+    "ntl_201806_cvg": DATA / "ntl" / "raw" / "201806" /
+    "SVDNB_npp_20180601-20180630_75N060E_vcmcfg_v10_c201904251200.cf_cvg.tif",
+
+    "ntl_201904_rad": DATA / "ntl" / "raw" / "201904" /
+    "SVDNB_npp_20190401-20190430_75N060E_vcmcfg_v10_c201905191000.avg_rade9h.tif",
+
+    "ntl_201904_cvg": DATA / "ntl" / "raw" / "201904" /
+    "SVDNB_npp_20190401-20190430_75N060E_vcmcfg_v10_c201905191000.cf_cvg.tif",
+
 
 }
