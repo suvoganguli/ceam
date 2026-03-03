@@ -17,28 +17,6 @@ BBOX = {
     "lat_max": 22.50,
 }
 
-# Maps are obtained using the following:
-#
-#curl -L -o data/worldpop/raw/2019/ind_ppp_2019_1km_Aggregated.tif \
-#  "https://data.worldpop.org/GIS/Population/Global_2000_2020_1km/2019/IND/ind_ppp_2019_1km_Aggregated.tif"
-#
-#curl -L -o data/worldpop/raw/2019/bgd_ppp_2019_1km_Aggregated.tif \
-#  "https://data.worldpop.org/GIS/Population/Global_2000_2020_1km/2019/BGD/bgd_ppp_2019_1km_Aggregated.tif"
-#
-#npm install -g osmtogeojson
-#
-#REL_ID=14937802
-#mkdir -p data/basemaps/osm
-#
-#curl -G "https://overpass-api.de/api/interpreter" \
-#  --data-urlencode "data=
-#[out:json][timeout:180];
-#relation(${REL_ID});
-#(._;>;);
-#out body;
-#" \
-#| osmtogeojson \
-#> data/basemaps/osm/sundarbans_relation_${REL_ID}.geojson
 
 PATHS = {
     # Basemaps
@@ -79,5 +57,10 @@ PATHS = {
     "ntl_201904_cvg": DATA / "ntl" / "raw" / "201904" /
     "SVDNB_npp_20190401-20190430_75N060E_vcmcfg_v10_c201905191000.cf_cvg.tif",
 
+    # NTL Processed Data
+    "ntl_apr_3857" : OUTPUTS / "figures" / "ntl_apr_3857.tif",
+
+    "ntl_apr_2019_rad_3857": OUTPUTS / "ntl" / "ntl_2019_04_rad_3857.tif",
+    "ntl_apr_2019_cvg_3857": OUTPUTS / "ntl" / "ntl_2019_04_cvg_3857.tif",
 
 }
